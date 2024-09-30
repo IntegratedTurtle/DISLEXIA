@@ -3,6 +3,13 @@
 ### Analyse vorhandener Literatur (Ben)
 
 ### Analyse von Konkurrenzprodukten & der bisherigen Applikation (falls zutreffend) (Julian)
+#### https://legakids.net/kids/spiele
+#### https://legasthenie-software.de/cgi-bin/wwwklex.cgi
+#### https://www.legasthenie.schule/
+#### https://legasthenie.web.app/spiel/#/
+
+
+
 
 ### Nutzer:innenanalyse und Kontextanalyse
 
