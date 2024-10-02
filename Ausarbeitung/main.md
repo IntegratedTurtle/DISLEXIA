@@ -45,6 +45,30 @@ Die meiner Meinung nach beste Alternative der drei zeichnet sich durch ein sehr 
 
 ### Nutzer:innenanalyse und Kontextanalyse
 
+#### Nutzer:innenanalyse
+
+Die App soll sowohl alle Altersgruppen als auch Geschlechtsgruppen in unsere Zielgruppe mit hineinbeziehen und richtet sich wie gesagt hauptsächlich an LegasthenikerInnen. Legasthenie ist eine Lese-Rechtschreibstörung, bei der betroffene Personen Schwierigkeiten beim Erlernen von Lese- und/oder Schreibfähigkeiten haben. Die WHO unterscheidet hierbei folgende Kategorien: Lese- und Rechtschreibstörung, isolierte Rechtschreibstörung und isolierte Lesestörung. Diese Lese- und Schreibfähigkeiten kann man mithilfe von Trainingsprogrammen verbessern und anschließend weiter ausbauen. Für den Anfang sollen diese Trainingsprogramme auf {Betriebssystem? bzw. Gerät?} erhältlich sein.
+
+Es wird davon ausgegangen, dass die meisten Legastheniker ihre Lese- und Rechtschreibfähigkeiten verbessern wollen. Verschiedene Apps bieten hierbei eine Vielzahl an Aufgaben und können den Fortschritt erheblich verschnellern. Allerdings weisen die Apps, die sich der liebe Julian H bis jetzt angeschaut hat, ein schlechtes Design oder eine nicht sehr effiziente Nutzung des gesamten Bildschirmes auf. Daher wollen wir eine App entwickeln, die den Usability Heuristics und den Bedürfnissen der NutzerInnen entsprechen. Es führen viele Wege nach Rom. Man kann jedoch auch einen kürzeren und angenehmeren Weg nehmen, indem man sich für unsere in Zukunft einwandfrei entwickelte App entscheidet, um schneller ans Ziel zu gelangen.
+
+Die Website [https://www.sabinejokischlernstraat.com/legasthenie-uebungen/](https://www.sabinejokischlernstraat.com/legasthenie-uebungen/) behandelt bezüglich der Aufgaben die AFS-Methode. Diese wird aus Aufmerksamkeitstraining, Funktionstraining und Symptomtraining zusammengesetzt und enthält mehrere Übungen bzw. Übungsbereiche, welche einer Kategorie zugeordnet werden können. Die folgende Tabelle zeigt mehrere Übungen/Übungsbereiche und ihre Kategorie an:
+
+| Aufmerksamkeitstraining | Funktionstraining | Symptomtraining |
+|:-|:-|:-|
+| Phantasiereisen | Akustik | ABC Training |
+| Autogenes Training | Kinästhetik | Wortbild |
+| Edu-Kinästhetik | Serialität | Wortklang |
+| Geschicklichkeitsübungen | Intermodalität | Wortbedeutung |
+| Malen mit Hintergrundmusik | Optik | Lesetechnik |
+|  |  | Lerntechnik |
+|  |  | PC |
+
+Da die Aufmerksamkeitsspanne von Person zu Person variiert, wird es von Vorteil sein, wenn der Nutzer bzw. die Nutzerin ein ordentliches Design zu Gesicht bekommt. Zusätzlich soll man bei der Nutzung des Programms keine Schwierigkeiten haben und mit verständlichen Symbolen zurrechtkommen. Eine Idee wäre die Implementierung eines einfachen Guides beim Einstieg in das Programm oder eines Hilfe-Buttons, welcher während der Nutzung immer sichtbar sein wird. Dies kann nebenbei dabei helfen die User Retention aufrechtzuerhalten und auch die Zufriedenheit der NutzerInnen erhöhen. Des Weiteren sollen In-Game Belohnungen die NutzerInnen dazu motivieren weiter am Ball zu bleiben und eventuell Fortschrittsbalken in das Programm integrieren, um auf den eigenen Fortschritt zurückblicken zu können.
+
+Damit sich die App stetig weiterentwickeln kann, wollen nicht nur Feedback an unsere NutzerInnen geben, sondern auch Feedback von ihnen erhalten, um auf ihre Wünsche und Bedürfnisse eingehen zu können. Das Feedback sollte dann Fragen in Bezug auf Usability, Satisfaction oder sogar Aesthetic inkludieren. Vor dem Release der App sollte man daher mit Testpersonen einen Usability-Test durchführen und durch ihn beobachten, wie sich die Testperson mit dem Programm zurechtfindet. Somit können wir jegliche Probleme und Verbesserungsmöglichkeiten identifizieren.
+(Joshua)
+
+
 ### Erstellt Personas, die die wichtigsten Nutzer:innenszenarien abdecken: 2 primäre, 1 sekundäre, 1 negative Persona
 
 ### Aufgabenanalyse (task analysis)
