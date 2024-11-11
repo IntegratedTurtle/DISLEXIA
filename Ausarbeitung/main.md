@@ -69,7 +69,7 @@ Damit sich die App stetig weiterentwickeln kann, wollen nicht nur Feedback an un
 (Joshua)
 
 
-### Erstellt Personas, die die wichtigsten Nutzer:innenszenarien abdecken: 2 primäre, 1 sekundäre, 1 negative Persona
+### Erstellt Personas, die die wichtigsten Nutzer:innenszenarien abdecken: 2 primäre, 1 sekundäre, 1 negative Persona Julian J
 
 ![1](https://github.com/user-attachments/assets/fb1f9672-379f-4f4a-8a90-dfc0956d5d36)
 ![2](https://github.com/user-attachments/assets/6fed63df-2784-4045-a365-43be9eb581ff)
@@ -78,7 +78,7 @@ Damit sich die App stetig weiterentwickeln kann, wollen nicht nur Feedback an un
 ![5](https://github.com/user-attachments/assets/e5e14e04-88ff-4c1b-b867-e4355d7c831b)
 
 
-### Aufgabenanalyse (task analysis)
+### Aufgabenanalyse (task analysis) Julian J
 
 | User/Task           | Tim      | David    | Renate   |
 |---------------------|----------|----------|----------|
