@@ -10,6 +10,7 @@ fn App() -> impl IntoView {
     let (count, set_count) = create_signal(0);
 
     view! {
+    <TypeSelection/>
     <GuestLogin/>
     <div class="container">
         <h2 class="titles">DISLEXIA</h2>
@@ -24,6 +25,8 @@ fn App() -> impl IntoView {
 #[component]
 fn LoginForm() -> impl IntoView {
     view! {
+
+        Client-side rendering (CSR) with Trunk - a great option if you just want to make a snappy website with Leptos, or work with a pre-existing server or API. In CSR mode, Trunk compiles your Leptos app to WebAssembly (WASM) and runs it in the browser like a typical Javascript single-page app (SPA). The advantages of Leptos CSR include faster build times and a quicker iterative development cycle, as well as a simpler mental model and more options for deploying your app. CSR apps do come with some disadvantages: initial load times for your end users are slower compared to a server-side rendering approach, and the usual SEO challenges that come along with using a JS single-page app model apply to Leptos CSR apps as well. Also note that, under the hood, an auto-generated snippet of JS is used to load the Leptos WASM bundle, so JS must be enabled on the client device for your CSR app to display properly. As with a
         <form action="#" class="form" method="POST">
             <input type="email" class="input" placeholder="user@example.com" required/>
             <input type="password" class="input" placeholder="Password1234" required/>
@@ -41,7 +44,7 @@ fn GuestLogin() -> impl IntoView {
 
 #[component]
 fn TypeSelection() -> impl IntoView {
-    let length = 5;
+    let length = 4;
     let counters = (1..=length).map(|idx| create_signal(idx));
 
     let counter_buttons = counters

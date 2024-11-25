@@ -71,11 +71,11 @@ Damit sich die App stetig weiterentwickeln kann, wollen nicht nur Feedback an un
 
 ### Erstellt Personas, die die wichtigsten Nutzer:innenszenarien abdecken: 2 primäre, 1 sekundäre, 1 negative Persona Julian J
 
-![1](https://github.com/user-attachments/assets/fb1f9672-379f-4f4a-8a90-dfc0956d5d36)
-![2](https://github.com/user-attachments/assets/6fed63df-2784-4045-a365-43be9eb581ff)
-![3](https://github.com/user-attachments/assets/c0f825be-98b9-48b4-8bb5-d090eb59f5c7)
-![4](https://github.com/user-attachments/assets/7ef90223-5648-4e02-9555-d21fcf12dcd7)
-![5](https://github.com/user-attachments/assets/e5e14e04-88ff-4c1b-b867-e4355d7c831b)
+![1](img/Tim.png)
+![2](img/David.png)
+![3](img/Renate.png)
+![4](img/Lotte.png)
+![5](img/Prof.png)
 
 
 ### Aufgabenanalyse (task analysis) Julian J
@@ -92,6 +92,12 @@ Damit sich die App stetig weiterentwickeln kann, wollen nicht nur Feedback an un
 
 
 ## Low-fidelity Prototypen
+
+### Prototyp Julian²
+![1](img/Low%20Fidelity%20Julianx2.png
+)
+
+### Prototyp Ben * Joshua
 
 ## App Entwicklung
 
