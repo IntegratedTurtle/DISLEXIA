@@ -120,6 +120,14 @@ In der Lektion selbst hat man dann entweder vertikal oder horizontal auf der Sei
 
 Zum Schluss einer Lektion kommen dann immer noch Statistiken und Erklärungen, die man aber einfach überspringen kann. 
 
+### Anpassungen
+
+Menschen usw. werden durch altersgerechte Figuren und Formen (Murmeln) ersetzt, damit die Eltern keinen Schock bekommen, wenn sie die App sehen. (Wir gehen davon aus, dass die Kinder sowieso schon an solche Inhalte gewöhnt sind)
+
+ELO, um die Aufmerksamkeit der User für längere Zeitspannen zu fesseln.
+
+Sprache komplett auf Deutsch, damit auch die jungen Mitglieder der Gesellschaft alles lesen können. 
+
 ### Prototyp Ben * Joshua
 ![Bild](img/BJAM2.jpeg)
 Prototype Ben Joshi
