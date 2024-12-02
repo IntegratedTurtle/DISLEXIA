@@ -112,6 +112,13 @@ gegen einander antreten können. Weiters, hatten wir die  eines Tower-
 Defense teils, die wir später mehr ausgeführt hatten.
 
 #### Beschreibung
+Der Low-Fi Prototyp beginnt in der zweiten "Zeile" und behandelt die Idee eines Tower Defense "Spieles". Die Grundidee ist, für jedes Lektion, die man erledigt, wird ein Gegner besiegt. Besiegt man im Durchschnitt mehr Gegner pro Tag als man bekommt, steigt man auf und es kommen mehr Gegner. So wird der User dazu angetrieben, jeden Tag die Gegner zu besiegen, da sie sonst wieder absteigen. 
+
+Für den Mainscreen hatten wir mehrere Ideen, die nebeneinander augelistet sind. Für welche man sich dann entscheidet ist eigentlich egal - sie funktionieren alle gleich. Um einen Gegner zu besiegen, drückt man auf diesen und kommt sofort in die Lektion hinein. 
+
+In der Lektion selbst hat man dann entweder vertikal oder horizontal auf der Seite eine Progressbar, die angebiet, wie viel schon geschafft wurde. In der Mitte ist das Feld, wo die Aufgaben angezeigt werden. Dafür haben wir nur ein Beispiel designed, aber da kann man dann ja alles mögliche reingeben. 
+
+Zum Schluss einer Lektion kommen dann immer noch Statistiken und Erklärungen, die man aber einfach überspringen kann. 
 
 ### Prototyp Ben * Joshua
 
