@@ -121,7 +121,15 @@ In der Lektion selbst hat man dann entweder vertikal oder horizontal auf der Sei
 Zum Schluss einer Lektion kommen dann immer noch Statistiken und Erklärungen, die man aber einfach überspringen kann. 
 
 ### Prototyp Ben * Joshua
+Prototype Ben Joshi
 
+Wir haben uns gedacht, damit es wie ein Spiel wirkt, dass wir ein Schiff sind und dann so zu sagen von Aufgabe zu Aufgabe/Insel zu Insel segeln und uns somit langsam weiter arbeiten.\
+
+Da es verschiedene Lektionen gibt welche unterschiedliche Themen behandeln haben wollten wir die Themen der Lektionen mit Symbolen kennzeichenen, das Inkludiert soetwas wie einen Vogel auf der Inseln, eine Schatzkarte oder eine Schaufel. Damit man auch noch eine wahl hat wie man diese Kategorien macht gibt es dann mehrere Inseln und man muss sie nicht Linear abarbeiten. Damit aber alle Aufgaben doch gemacht werden gibt es Tore, welche wir nur oeffnen koennen wenn wir wichtige Schluessel von den Inseln einsammeln.
+
+Diese Idee haben wir allerdings verworfen, da wir eine Simple expirience haben wollten die dabei hilftg so schnell wie moeglich zu ueben. Dementsprechend wollten wir von den mehreren Pfaden weg, da man die Anzahl der Entscheidungen minimieren will. Weiters haben wir uns auch gegen das urspruengliche Horizontal scrollen entscheiden, hin zu dem Mobile optimized vertical scrowl.
+
+Diese Wege sollen dann durch klar abgetrennte Kapitel getrennt sein.
 ## App Entwicklung
 
 ## Usability Test und Präsentation
