@@ -97,6 +97,10 @@ Damit sich die App stetig weiterentwickeln kann, wollen nicht nur Feedback an un
 ![1](img/Low%20Fidelity%20Julianx2.png
 )
 
+#### Ideensammlung 
+
+#### Beschreibung
+
 ### Prototyp Ben * Joshua
 
 ## App Entwicklung
