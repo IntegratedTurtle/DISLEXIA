@@ -121,6 +121,7 @@ In der Lektion selbst hat man dann entweder vertikal oder horizontal auf der Sei
 Zum Schluss einer Lektion kommen dann immer noch Statistiken und Erklärungen, die man aber einfach überspringen kann. 
 
 ### Prototyp Ben * Joshua
+![COoles Bild](img/WhatsApp Image 2024-12-02 at 16.06.49.jpeg)
 Prototype Ben Joshi
 
 Wir haben uns gedacht, damit es wie ein Spiel wirkt, dass wir ein Schiff sind und dann so zu sagen von Aufgabe zu Aufgabe/Insel zu Insel segeln und uns somit langsam weiter arbeiten.\
