@@ -99,6 +99,18 @@ Damit sich die App stetig weiterentwickeln kann, wollen nicht nur Feedback an un
 
 #### Ideensammlung 
 
+Erste Überlegungen über das Layout der verschiedenen Funktionen, wie die
+verschiedenen Spielmodi. Dazu kamen die Vorschläge es ähnlich wie bei
+Duolingo am unteren Displayrand zu positionieren. Gegenvorschlag Opera-
+Style Tab bar auf der linken Seite. Dann haben wir auch zu verschiedenen
+Positionierungen der Lectures in der Map gedanken, von Duolingopfad, 
+einer sich immer weiter streckenden Spirale/Schnecke, in die man rein
+und raus zoomt, sowie ein simples Tiling, dass sich nicht wiederholt.
+Außerdem haben wir uns Gedanken über ein competitives Element gemacht, 
+in dem verschiedene Spieler mit einem Elo system gepaart werden und
+gegen einander antreten können. Weiters, hatten wir die  eines Tower-
+Defense teils, die wir später mehr ausgeführt hatten.
+
 #### Beschreibung
 
 ### Prototyp Ben * Joshua
