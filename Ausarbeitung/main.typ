@@ -372,5 +372,4 @@ Diese Wege sollen dann durch klar abgetrennte Kapitel getrennt sein.
 
 == Usability Test und Präsentation
 <usability-test-und-präsentation>
-Disclaimer: Das File wurde in Markdown geschrieben und mit Typst
-compiliert. Daher ist das Formatting (im PDF) absolut fabulous.
+
