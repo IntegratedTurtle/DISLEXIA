@@ -93,8 +93,8 @@ Damit sich die App stetig weiterentwickeln kann, wollen nicht nur Feedback an un
 
 ## Low-fidelity Prototypen
 
-### Prototyp Julian²
-![1](img/Low%20Fidelity%20Julianx2.png
+### Prototyp Julian^2
+![1](img/Low_Fidelity_Julianx2.png
 )
 
 #### Ideensammlung 
@@ -142,3 +142,6 @@ Diese Wege sollen dann durch klar abgetrennte Kapitel getrennt sein.
 ## App Entwicklung
 
 ## Usability Test und Präsentation
+
+
+Disclaimer: Das File wurde in Markdown geschrieben und mit Typst compiliert. Daher ist das Formatting (im PDF) absolut fabulous. 
