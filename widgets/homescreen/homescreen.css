@@ -32,9 +32,35 @@ body {
     background-color: #FFFFFF;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
-
 .content {
     padding: 20px;
     flex: 1;
     background-color: #FFFAF0; /* Match the body background color */
+    overflow-y: auto; /* Add vertical scrollbar if necessary */
+    margin-top: 100px; /* Height of the topbar */
+    margin-left: 290px; /* Width of the sidebar */
+    z-index: -1;
+}
+
+.round-button {
+    display: inline-block;
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #FF8C42; /* Soft orange color */
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 5px #FF6F00; /* Darker orange for 3D effect */
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.round-button:active {
+    box-shadow: 0 2px #FF6F00; /* Darker orange for 3D effect */
+    transform: translateY(3px);
+}
+
+.round-button:hover {
+    background-color: #FF6F00; /* Darker orange on hover */
 }
