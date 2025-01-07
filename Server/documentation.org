@@ -1,0 +1,126 @@
+* Intreduction
+The server is running a small sqlite database, that is currently unencrypted,
+so this is not ready for production in any sense The database saves humans as
+their email addresses, which are protected by an password. It is then possible
+to create users, get their information and update one of their three paths
+
+* User
+** Creation
+
+The user creation is a POST request to the root of the server with all relevant
+information in a json
+```
+{
+  "uid": 123,
+  "email": "user@example.com",
+  "password": "securepassword",
+  "tracka": 1,
+  "trackb": 1,
+  "trackc": 1
+}
+```
+The type in go is defined as:
+```
+type User struct {
+	UID      int    `json:"uid"`
+	Email    string `json:"email"`
+	Password string `json:"password"`
+	TrackA   int    `json:"tracka"`
+	TrackB   int    `json:"trackb"`
+	TrackC   int    `json:"trackc"`
+}
+```
+As the database creates their own uid, this field will be ignored but, is
+important to set for Seralisations reasons.
+
+An example cur request to create a User would be
+```
+curl -X POST 127.0.0.1:8080/ --header "Content-Type: application/json" --data '{
+   "uid": 123,
+   "email": "user@example.com",
+   "password": "securepassword",
+   "tracka": 1,
+   "trackb": 1,
+   "trackc": 1
+ }'
+```
+*** Errors
+If you failed to use the right method you will get: Unsupported method
+If your json is not parsable, you will get: INVALID input
+If your email allready exists, you will get: User not found or password false
+** Get User Information
+The user creation is a GET request to the root of the server with all relevant
+information in a json
+Valid example json:
+```
+{
+  "email": "user@example.com",
+	"password": "securepassword"
+}```
+
+As the type in go it parses to looks like this:
+```
+type Credentials struct {
+	Email    string `json:"email"`
+	Password string `json:"password"`
+}
+```
+An working example in curl would look like:
+```
+curl -X GET 127.0.0.1:8080/ --header "Content-Type: application/json" --data '{
+                       "email": "user@example.com",
+                       "password": "securepassword"
+}'```
+
+The return json then looks like this:
+```
+{
+	"uid":1,
+	"email":"user@example.com",
+	"password":"securepassword",
+	"tracka":1,
+	"trackb":1,
+	"trackc":1
+}
+```
+*** Errors
+If you failed to use the right method you will get: Unsupported method
+If your json is not parsable, you will get: INVALID input
+If the sqlite query fails, you will get: User not found or password false
+
+* Track
+This works the same for all three tracks, only the request paths are different:
+```
+/tracka ||
+/trackb ||
+/trackc	
+```
+The track update is a GET request to the root of the server with all relevant
+information in a json
+Valid example json:
+```
+{
+  "email": "user@example.com",
+	"password": "securepassword"
+}```
+
+As the type in go it parses to looks like this:
+```
+type Credentials struct {
+	Email    string `json:"email"`
+	Password string `json:"password"`
+}
+```
+An working example in curl would look like:
+```
+curl -X GET 127.0.0.1:8080/tracka --header "Content-Type: application/json" --data '{
+                       "email": "user@example.com",
+                       "password": "securepassword"
+}'```
+
+this would update the tracka and increment it by 1.
+
+*** Errors
+If you failed to use the right method you will get: Unsupported method
+If your json is not parsable, you will get: INVALID input
+If the sqlite query fails, you will get: Update failed or invalid credentials
