@@ -67,6 +67,13 @@
         font-size: 14px;
     }
 
+    .links a:hover{ /* Darker orange + underline */
+        color: #FF6F00;
+        font-size: 14px;
+        border-bottom: 1px solid #FF6F00;
+        transition: 0.3s;
+    }
+
     /* Guest login button in the top right */
     .guest-login {
         position: absolute;
