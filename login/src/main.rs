@@ -89,6 +89,7 @@ fn GuestLogin() -> impl IntoView {
                                 let response_text: String = text.as_string().unwrap();
                                 set_storage(&window, "guest", "true");
                                 set_storage(&window, "data", &response_text);
+                                let _ = window.location().set_href("/main");
                             }
                             Err(err) => unsafe {
                                 console::log_1(
