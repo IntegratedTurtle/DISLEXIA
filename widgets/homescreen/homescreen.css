@@ -46,8 +46,8 @@ body {
 
 .round-button {
     display: inline-block;
-    width: 60px; /* Set width */
-    height: 60px; /* Set height */
+    width: 90px; /* Set width */
+    height: 85px; /* Set height */
     font-size: 16px;
     font-weight: bold;
     color: white;
@@ -57,7 +57,7 @@ body {
     box-shadow: 0 7px #FF6F00; /* Increase the shadow for a stronger 3D effect */
     cursor: pointer;
     transition: all 0.3s ease;
-    text-align: center; /* Center text horizontally */
+    text-align: center; /* Center text horizontally */;
     line-height: 60px; /* Center text vertically */
 }
 
@@ -68,4 +68,24 @@ body {
 
 .round-button:hover {
     background-color: #FF6F00; /* Darker orange on hover */
+}
+
+.round-button-grey {
+    display: inline-block;
+    width: 90px; /* Set width */
+    height: 85px; /* Set height */
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: grey; /* Soft orange color */
+    border: none;
+    border-radius: 50%; /* Make it a circle */
+    box-shadow: 0 7px darkgrey; /* Increase the shadow for a stronger 3D effect */
+    transition: all 0.3s ease;
+    text-align: center; /* Center text horizontally */;
+    line-height: 60px; /* Center text vertically */
+}
+
+.round-button-grey:hover {
+    background-color: grey; /* Darker orange on hover */
 }

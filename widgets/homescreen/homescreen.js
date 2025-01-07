@@ -11,157 +11,13 @@ function random_int(min, max) {
     return Math.floor(random() * (max - min + 1) + min);
 }
 
-
+let playSvg = '<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill="#ffffff" d="M106.854 106.002a26.003 26.003 0 0 0-25.64 29.326c16 124 16 117.344 0 241.344a26.003 26.003 0 0 0 35.776 27.332l298-124a26.003 26.003 0 0 0 0-48.008l-298-124a26.003 26.003 0 0 0-10.136-1.994z"></path></g></svg>';
 
 
 function build_path() {
-    let data = {
-        line1: [
-            {
-                height: 0,
-            },
-            {
-                height: -1,
-            },
-            {
-                height: 0.4,
-            },
-            {
-                height: 0.6,
-            },
-            {
-                height: 0.8,
-            },
-            {
-                height: 1,
-            },
-            {
-                height: 0.8,
-            },
-            {
-                height: 0.6,
-            },
-            {
-                height: 0.4,
-            },
-            {
-                height: 0,
-            },
-            {
-                height: -1,
-            },
-            {
-                height: 0,
-            },
-            {
-                height: 0.4,
-            },
-            {
-                height: 0.6,
-            },
-            {
-                height: 0.8,
-            },
-            {
-                height: 1,
-            },
-            {
-                height: 0.8,
-            },
-            {
-                height: 0.6,
-            },
-            {
-                height: 0.4,
-            },
-            {
-                height: 0,
-            },
-            {
-                height: -1,
-            },
-            {
-                height: 0,
-            },
-            {
-                height: 0.4,
-            },
-            {
-                height: 0.6,
-            },
-            {
-                height: 0.8,
-            },
-            {
-                height: 1,
-            },
-            {
-                height: 0.8,
-            },
-            {
-                height: 0.6,
-            },
-            {
-                height: 0.4,
-            },
-            {
-                height: 0,
-            },
-            {
-                height: -1,
-            },
-            {
-                height: 0,
-            },
-            {
-                height: 0.4,
-            },
-            {
-                height: 0.6,
-            },
-            {
-                height: 0.8,
-            },
-            {
-                height: 1,
-            },
-            {
-                height: 0.8,
-            },
-            {
-                height: 0.6,
-            },
-            {
-                height: 0.4,
-            },
-            {
-                height: 0,
-            },
-            {
-                height: -1,
-            },
-            {
-                height: 0,
-            },
-            {
-                height: 0.4,
-            },
-            {
-                height: 0.6,
-            },
-            {
-                height: 0.8,
-            },
-            {
-                height: 1,
-            },
-            {
-                height: 0.8,
-            },
-        ],
-        line2: 3,
-        line3: 3
-    };
+
+    let advancement = [4, 1, 5];
+
 
     let height = 120 + document.querySelector('.content').offsetTop;
     for (let i = 0; i < 3; i++) {
@@ -169,28 +25,23 @@ function build_path() {
         let pixel = 30 + document.querySelector('.content').offsetLeft;
         for (let j = 0; j < 20; j++) {
             let button = document.createElement("button");
-            button.className = "round-button";
+            if (advancement[i] < j) {
+                button.className = "round-button-grey";
+            } else {
+                button.className = "round-button";
+            }
             button.style.position = "absolute";
             button.style.left = `${pixel}px`;
             button.style.top = `${height + random_int(-40, 40)}px`;
+            button.innerHTML = playSvg;
+
+
             document.querySelector('.content').appendChild(button);
             pixel += 180;
         }
         height += document.querySelector('.content').offsetHeight / 3;
     }
 
-
-
-
-    // data.line1.forEach(element => {
-    //     let button = document.createElement("button");
-    //     button.className = "round-button";
-    //     button.style.position = "absolute";
-    //     button.style.left = `${pixel}px`;
-    //     button.style.top = `${height + random_int(-40, 40)}px`;
-    //     document.querySelector('.content').appendChild(button);
-    //     pixel += 70;
-    // });
 }
 
 
