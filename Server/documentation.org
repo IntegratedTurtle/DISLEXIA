@@ -47,7 +47,7 @@ curl -X POST 127.0.0.1:8080/ --header "Content-Type: application/json" --data '{
 *** Errors
 If you failed to use the right method you will get: Unsupported method
 If your json is not parsable, you will get: INVALID input
-If your email allready exists, you will get: User not found or password false
+If your email allready exists, you will get: User not found or password false aka ERROR 409
 ** Get User Information
 The user creation is a GET request to the root of the server with all relevant
 information in a json

@@ -81,6 +81,7 @@ func handleCreateUser(db *sql.DB, w http.ResponseWriter, r *http.Request) {
 
 	err = addUser(db, user)
 	if err != nil {
+		log.Println("Email already exists or invalid data")
 		http.Error(w, "Email already exists or invalid data", http.StatusConflict)
 		return
 	}
@@ -134,17 +135,16 @@ func main() {
 		switch r.Method {
 		case "POST":
 			handleCreateUser(db, w, r)
-		case "GET":
+		case "SEARCH":
 			handleGetUser(db, w, r)
 		default:
 			http.Error(w, "Unsupported method", http.StatusMethodNotAllowed)
 		}
 	})
-
 	http.HandleFunc("/tracka", handleUpdateTrack(db, "tracka"))
 	http.HandleFunc("/trackb", handleUpdateTrack(db, "trackb"))
 	http.HandleFunc("/trackc", handleUpdateTrack(db, "trackc"))
 
-	log.Println("Server is running on port 8080")
-	log.Fatal(http.ListenAndServe(":8080", nil))
+	log.Println("Server is running on port 8081")
+	log.Fatal(http.ListenAndServe(":8081", nil))
 }
