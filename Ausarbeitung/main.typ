@@ -371,7 +371,7 @@ Diese Wege sollen dann durch klar abgetrennte Kapitel getrennt sein.
 
 == App Entwicklung
 
-Link zur Webiste: https://integratedturtle.github.io/DISLEXIA/index.html
+Link zur Webiste: #link("https://integratedturtle.github.io/DISLEXIA/index.html")[DISLEXIA]
 
 Der Prototyp ist im Grunde eine minimalistische Form des Prototypen von Joshua und Ben. Bereits implemntiert sind folgende Features:
 
