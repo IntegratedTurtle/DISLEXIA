@@ -2,16 +2,16 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    background-color: #FFFAF0; /* Warm cream color */
+    background-color: #FFFAF0;
     display: flex;
     height: 100vh;
-    flex-direction: row; /* Change to row to accommodate the vertical progress bar */
+    flex-direction: row;
 }
 
 .progress-bar-container {
     width: 100%;
     padding: 100px;
-    background-color: #FFFAF0; /* Warm cream color */
+    background-color: #FFFAF0;
 }
 
 .progress-bar {
@@ -19,20 +19,19 @@ body {
     height: 100%;
     border-radius: 10px;
     background-color: #ddd;
-    position: relative; /* Add relative positioning */
+    position: relative;
 }
 
 .progress {
     width: 100%;
-    height: 0%; /* Adjust this value to set the progress */
-    background-color: #FF8C42; /* Soft orange color */
+    height: 0%;
+    background-color: #FF8C42; 
     border-radius: 10px;
-    position: absolute; /* Add absolute positioning */
-    bottom: 0; /* Position at the bottom */
-    transition: height 0.5s ease; /* Add transition for height */
+    position: absolute;
+    bottom: 0; 
+    transition: height 0.5s ease; 
 }
 
-/* Guest login button in the top right */
 .back-button {
     position: absolute; 
     top: 20px;
@@ -52,7 +51,6 @@ body {
     color: white;
 }
 
-/* Mobile responsiveness */
 @media (max-width: 768px) {
     .back-button {
         font-size: 12px;

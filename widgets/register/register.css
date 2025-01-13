@@ -1,9 +1,9 @@
-/* General styles */
+
 body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    background-color: #FFFAF0; /* Warm cream color */
+    background-color: #FFFAF0; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,7 +21,7 @@ body {
 
 .titles {
     text-align: center;
-    color: #FF8C42; /* Soft orange color */
+    color: #FF8C42;
 }
 
 .form {
@@ -29,22 +29,19 @@ body {
     flex-direction: column;
 }
 
-/*input[type="text"],
-input[type="email"],
-input[type="password"],*/
 .input {
     padding: 12px;
     margin: 10px 0;
     border: 1px solid #ddd;
     border-radius: 8px;
     font-size: 16px;
-    background-color: #FFF5E5; /* Light warm background */
+    background-color: #FFF5E5; 
 }
 
 .btn {
     padding: 12px;
     margin-top: 10px;
-    background-color: #FF8C42; /* Soft orange button */
+    background-color: #FF8C42; 
     border: none;
     border-radius: 8px;
     color: white;
@@ -54,10 +51,9 @@ input[type="password"],*/
 }
 
 .btn:hover {
-    background-color: #FF6F00; /* Darker orange on hover */
+    background-color: #FF6F00;
 }
 
-/* Mobile responsiveness */
 @media (max-width: 768px) {
     .container {
         max-width: 90%;

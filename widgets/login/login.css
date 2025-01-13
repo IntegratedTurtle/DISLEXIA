@@ -1,9 +1,9 @@
-    /* General styles */
+
     body {
         margin: 0;
         padding: 0;
         font-family: 'Arial', sans-serif;
-        background-color: #FFFAF0; /* Warm cream color */
+        background-color: #FFFAF0; 
         display: flex;
         justify-content: center;
         align-items: center;
@@ -21,7 +21,7 @@
 
     .titles {
         text-align: center;
-        color: #FF8C42; /* Soft orange color */
+        color: #FF8C42; 
     }
 
     .form {
@@ -29,21 +29,19 @@
         flex-direction: column;
     }
 
-    /*input[type="email"],
-    input[type="password"]*/
     .input {
         padding: 12px;
         margin: 10px 0;
         border: 1px solid #ddd;
         border-radius: 8px;
         font-size: 16px;
-        background-color: #FFF5E5; /* Light warm background */
+        background-color: #FFF5E5; 
     }
 
     .btn {
         padding: 12px;
         margin-top: 10px;
-        background-color: #FF8C42; /* Soft orange button */
+        background-color: #FF8C42; 
         border: none;
         border-radius: 8px;
         color: white;
@@ -53,7 +51,7 @@
     }
 
     .btn:hover {
-        background-color: #FF6F00; /* Darker orange on hover */
+        background-color: #FF6F00; 
     }
 
     .links {
@@ -67,14 +65,13 @@
         font-size: 14px;
     }
 
-    .links a:hover{ /* Darker orange + underline */
+    .links a:hover{ 
         color: #FF6F00;
         font-size: 14px;
         border-bottom: 1px solid #FF6F00;
         transition: 0.3s;
     }
 
-    /* Guest login button in the top right */
     .guest-login {
         position: absolute;
         top: 20px;
@@ -94,7 +91,6 @@
         color: white;
     }
 
-    /* Mobile responsiveness */
     @media (max-width: 768px) {
         .container {
             max-width: 90%;

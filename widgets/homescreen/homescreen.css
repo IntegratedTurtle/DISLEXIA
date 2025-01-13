@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    background-color: #FFFAF0; /* Warm cream color */
+    background-color: #FFFAF0;
     display: flex;
     height: 100vh;
     flex-direction: column;
@@ -25,9 +25,9 @@ body {
 
 .sidebar {
     position: fixed;
-    top: 100px; /* Adjust to be below the topbar */
+    top: 100px; 
     left: 0;
-    height: calc(100vh - 60px); /* Adjust height to account for the topbar */
+    height: calc(100vh - 60px);
     width: 250px;
     padding: 20px;
     background-color: #FFFFFF;
@@ -37,83 +37,83 @@ body {
 .content {
     padding: 20px;
     flex: 1;
-    background-color: #FFFAF0; /* Match the body background color */
-    overflow-y: auto; /* Add vertical scrollbar if necessary */
-    margin-top: 100px; /* Height of the topbar */
-    margin-left: 290px; /* Width of the sidebar */
+    background-color: #FFFAF0;
+    overflow-y: auto; 
+    margin-top: 100px;
+    margin-left: 290px;
     z-index: 0;
 }
 
 .round-button {
     display: inline-block;
-    width: 90px; /* Set width */
-    height: 85px; /* Set height */
+    width: 90px;
+    height: 85px; 
     font-size: 16px;
     font-weight: bold;
     color: white;
-    background-color: #FF8C42; /* Soft orange color */
+    background-color: #FF8C42; 
     border: none;
-    border-radius: 50%; /* Make it a circle */
-    box-shadow: 0 7px #FF6F00; /* Increase the shadow for a stronger 3D effect */
+    border-radius: 50%;
+    box-shadow: 0 7px #FF6F00; 
     cursor: pointer;
     transition: all 0.3s ease;
-    text-align: center; /* Center text horizontally */;
-    line-height: 60px; /* Center text vertically */
+    text-align: center; 
+    line-height: 60px; 
 }
 
 .round-button:active {
-    box-shadow: 0 0px #FF6F00; /* Increase the shadow for a stronger 3D effect */
-    transform: translateY(7px); /* Increase the translation for a stronger 3D effect */
+    box-shadow: 0 0px #FF6F00;
+    transform: translateY(7px); 
 }
 
 .round-button:hover {
-    background-color: #FF6F00; /* Darker orange on hover */
+    background-color: #FF6F00; 
 }
 
 .round-button-gold {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90px; /* Set width */
-    height: 90px; /* Set height */
+    width: 90px; 
+    height: 90px; 
     font-size: 16px;
     font-weight: bold;
     color: white;
-    background-color: #FFD700; /* Golden color */
+    background-color: #FFD700;
     border: none;
-    border-radius: 50%; /* Make it a circle */
-    box-shadow: 0 7px #B8860B; /* Darker golden color for 3D effect */
+    border-radius: 50%; 
+    box-shadow: 0 7px #B8860B; 
     cursor: pointer;
     transition: all 0.3s ease;
-    text-align: center; /* Center text horizontally */
-    line-height: 90px; /* Center text vertically */
+    text-align: center; 
+    line-height: 90px; 
 }
 
 .round-button-gold:active {
-    box-shadow: 0 3px #b89131; /* Darker golden color for 3D effect */
-    transform: translateY(4px); /* Increase the translation for a stronger 3D effect */
+    box-shadow: 0 3px #b89131; 
+    transform: translateY(4px); 
 }
 
 .round-button-gold:hover {
-    background-color: #FFC107; /* Slightly darker golden color on hover */
+    background-color: #FFC107; 
 }
 
 .round-button-grey {
     display: inline-block;
-    width: 90px; /* Set width */
-    height: 85px; /* Set height */
+    width: 90px; 
+    height: 85px; 
     font-size: 16px;
     font-weight: bold;
     color: white;
-    background-color: grey; /* Soft orange color */
+    background-color: grey;
     border: none;
-    border-radius: 50%; /* Make it a circle */
-    box-shadow: 0 7px darkgrey; /* Increase the shadow for a stronger 3D effect */
+    border-radius: 50%;
+    box-shadow: 0 7px darkgrey;
     transition: all 0.3s ease;
-    text-align: center; /* Center text horizontally */;
-    line-height: 60px; /* Center text vertically */
+    text-align: center; 
+    line-height: 60px; 
 }
 
 .round-button-grey:hover {
-    background-color: grey; /* Darker orange on hover */
+    background-color: grey;
 }
