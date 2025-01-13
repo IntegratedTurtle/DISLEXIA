@@ -368,8 +368,36 @@ gegen das urspruengliche Horizontal scrollen entscheiden, hin zu dem
 Mobile optimized vertical scrowl.
 
 Diese Wege sollen dann durch klar abgetrennte Kapitel getrennt sein.
-\#\# App Entwicklung
+
+== App Entwicklung
+
+Link zur Webiste: https://integratedturtle.github.io/DISLEXIA/index.html
+
+Der Prototyp ist im Grunde eine minimalistische Form des Prototypen von Joshua und Ben. Bereits implemntiert sind folgende Features:
+
+- ein login screen, die man nur passen kann wenn man sowohl das email als auch Passwortfeld ausgefüllt hat, außerdem ist diese bereits mit der Backend verbunden und merkt sich die accounts, also die backend
+- es gibt, falls man noch keinen account hat, auch der einen funktionierend gäste login
+- registrieren, es gibt schon einen screen dafür hat aber noch keine funktion 
+- passwort zurücksetzen, wieder screen vorhanden aber keine effekte
+- fun fact, der Autor hat in diesem Abschnitt vergessen, dass Deutsch case sensitive ist
+- lectures, existieren in reduzierter form 
+- homepage, mit übersicht der verschiedenen lektionen/paths. Man sieht drei Paths, die von links nach rechts gehen, wenn man auf einen klick kommt man zu einer lecture. Weiters, wird farblich signalisiert welche lectures man schon gemacht hat.
+- backend, ist bereits voll vorhanden. Impliert mit Go and light sql.
+- kleine features: eine richtig geile (zitat Julian) scrollbar die anzeigt wie man in einer lecture ist; wenn man scrollt geht es automatisch nach rechts 
+
+Bei dem Design hat man sich dem können entsprechend stark an den prototypen gehalten. Die farbliche design sprache ist im grunde orange, siehe Ben. 
+
+
+Folgendes funktioniert noch nicht bzw wurde noch nicht implementiert:
+
+- Displays mit Screen ratio different from 1920x1200, unsere nutzerstudien werden eh feststellen, dass das perfekt für legasteniker ist.
+- lectures mit echtem Inhalt 
+- kurzzusammenfassungen der lektionen
+- streak count 
+- homepagedesign ist auch zur gänze ausgearbeitet
+- verschiedenste arten der tracker, wie zb elosystem
+
+- design, farblich orange weil Ben, pfad duo style aus ideen sammlung, drei routen, rot zu gruen progress bar, pfad nach aktivitat farbe
 
 == Usability Test und Präsentation
 <usability-test-und-präsentation>
-
