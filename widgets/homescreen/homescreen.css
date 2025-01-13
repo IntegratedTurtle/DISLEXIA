@@ -117,3 +117,56 @@ body {
 .round-button-grey:hover {
     background-color: grey;
 }
+
+
+.left-block {
+    flex: 1; /* Adjusts width proportionally */
+    text-align: left;
+    padding: 10px;
+}
+
+.right-block {
+    flex: 13; /* Adjusts width proportionally */
+    text-align: center;
+    padding: 10px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 100px; /* Adjust to be below the topbar */
+    left: 0;
+    height: calc(100vh - 60px); /* Adjust height to account for the topbar */
+    width: 250px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    transition: 0.5s;
+    overflow-x: hidden;
+    padding-top: 50px;
+}
+  
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+  
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+  
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}

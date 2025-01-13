@@ -53,5 +53,15 @@ function build_path() {
 }
 
 
+function toggleSidebar() {
+    const sidebar = document.querySelector('.sidebar');
+    sidebar.style.width = "300px";
+    
+}
+
+function closeNav() {
+    const sidebar = document.querySelector('.sidebar');
+    sidebar.style.width = "0";
+}
 
 build_path();
