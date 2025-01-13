@@ -34,9 +34,9 @@ function build_path() {
                 }
             } else {
                 button.className = "round-button";
-                button.onclick = () => {
-                    document.location.href = "../lecture/lecture.html";
-                }
+                // button.onclick = () => {
+                //     document.location.href = "../lecture/lecture.html";
+                // }
             }
             button.style.position = "absolute";
             button.style.left = `${pixel}px`;
