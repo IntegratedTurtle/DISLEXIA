@@ -70,6 +70,34 @@ body {
     background-color: #FF6F00; /* Darker orange on hover */
 }
 
+.round-button-gold {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px; /* Set width */
+    height: 90px; /* Set height */
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #FFD700; /* Golden color */
+    border: none;
+    border-radius: 50%; /* Make it a circle */
+    box-shadow: 0 7px #B8860B; /* Darker golden color for 3D effect */
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center; /* Center text horizontally */
+    line-height: 90px; /* Center text vertically */
+}
+
+.round-button-gold:active {
+    box-shadow: 0 3px #b89131; /* Darker golden color for 3D effect */
+    transform: translateY(4px); /* Increase the translation for a stronger 3D effect */
+}
+
+.round-button-gold:hover {
+    background-color: #FFC107; /* Slightly darker golden color on hover */
+}
+
 .round-button-grey {
     display: inline-block;
     width: 90px; /* Set width */

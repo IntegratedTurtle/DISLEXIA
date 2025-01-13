@@ -1,0 +1,56 @@
+body {
+    margin: 100px;
+    padding: 0;
+    border: 100px;
+    font-family: 'Arial', sans-serif;
+    background-color: #FFFAF0; /* Warm cream color */
+    display: flex;
+    height: 100vh;
+    flex-direction: row; /* Change to row to accommodate the vertical progress bar */
+}
+
+.progress-container {
+    width: 30px; /* Set width for the vertical progress bar */
+    height: 100vh; /*Full height of the container */
+    background-color: #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    position: fixed; /* Fix it to the side */
+    /* left: 0; Align to the left side */
+    /* top: 0; Align to the top */
+}
+
+.progress-bar {
+    width: 100%; /* Full width of the container */
+     height: 10%; /*Initial height */
+    background: linear-gradient(to top, red, yellow, green); /* Gradient from red to green */
+    transition: height 0.3s ease;
+}
+
+    /* Guest login button in the top right */
+    .back-button {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        background-color: transparent;
+        border: 2px solid #FF8C42;
+        padding: 8px 16px;
+        border-radius: 8px;
+        font-size: 14px;
+        color: #FF8C42;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .back-button:hover {
+        background-color: #FF8C42;
+        color: white;
+    }
+
+    /* Mobile responsiveness */
+    @media (max-width: 768px) {
+        .back-button {
+            font-size: 12px;
+            padding: 6px 12px;
+        }
+    }

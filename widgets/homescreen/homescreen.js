@@ -27,8 +27,16 @@ function build_path() {
             let button = document.createElement("button");
             if (advancement[i] < j) {
                 button.className = "round-button-grey";
+            } else if (advancement[i] === j){
+                button.className = "round-button-gold";
+                button.onclick = () => {
+                    document.location.href = "../lecture/lecture.html";
+                }
             } else {
                 button.className = "round-button";
+                button.onclick = () => {
+                    document.location.href = "../lecture/lecture.html";
+                }
             }
             button.style.position = "absolute";
             button.style.left = `${pixel}px`;
