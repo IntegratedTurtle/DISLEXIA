@@ -120,7 +120,7 @@ body {
 
 
 .left-block {
-    flex: 1; /* Adjusts width proportionally */
+    flex: 0; /* Adjusts width proportionally */
     text-align: left;
     padding: 10px;
 }
@@ -136,7 +136,7 @@ body {
     top: 100px; /* Adjust to be below the topbar */
     left: 0;
     height: calc(100vh - 60px); /* Adjust height to account for the topbar */
-    width: 250px;
+    width: 300px;
     background-color: #FFFFFF;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     z-index: 1;

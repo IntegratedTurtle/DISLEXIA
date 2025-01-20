@@ -55,8 +55,11 @@ function build_path() {
 
 function toggleSidebar() {
     const sidebar = document.querySelector('.sidebar');
-    sidebar.style.width = "300px";
-    
+    if (sidebar.style.width === "300px") {
+        closeNav();
+    } else {
+        sidebar.style.width = "300px";   
+    }
 }
 
 function closeNav() {
@@ -65,3 +68,4 @@ function closeNav() {
 }
 
 build_path();
+toggleSidebar();
