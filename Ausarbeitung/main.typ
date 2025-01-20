@@ -401,21 +401,6 @@ Folgendes funktioniert noch nicht bzw wurde noch nicht implementiert:
 
 == Usability Test und Präsentation
 
-=== Usability Test-Aufgaben
-
-==== Schüler zu Hause
-Der Schüler ist nach der Schule zu Hause angekommen und will seine Hausübung erledigen. Er muss seine Hausübung in Englisch und Mathematik fertig machen. Er hat sich in seinem Hausübungsheft zwar die Hausübung für Englisch, aber nicht für Mathematik aufgeschrieben. Er hofft, dass sein Lehrer die Hausübung in Gamify my Learning eingetragen hat. Er schaut nach in der App und sieht, dass es tatsächlich eingetragen ist und ist erleichtert. Er erledigt seine Hausübung und kreuzt die Hausübung, die er nun erledigt hat. Sein Clan ist am zweiten Platz. Er weiß zwar, dass manche in seiner Gruppe nicht so motiviert sind wie er, doch er hofft, dass es sich bis zum Ende des Semesters ausgeht, dass sein Clan erster wird. Doch dafür wird er wohl einige Bonusaufgaben erledigen müssen… .
-
-==== Schülerin in öffentlichen Verkehrsmitteln
-Da die Schülerin außerhalb von Wien wohnt, aber in Wien zur Schule geht, hat sie eine tägliche Fahrtzeit von 40 Minuten zur Schule und wieder nach Hause. Diese Zeit jedoch kann sie produktiv für etwaige Schulaufgaben nutzen. Hierzu verwendet sie gern die Gamify my Learning App um zu überprüfen welche Aufgaben sie noch zu erledigen hat. Nach erfolgreichem Abschließen einer Aufgabe ist sie einerseits erleichtert und andererseits, freut sie sich Punkte für ihren Clan zu sammeln. Und die anderen Gruppenmitglieder können sehen wie viele Punkte sie individuell bereits gesammelt hat.
-
-==== Lehrperson zu Hause
-Die Lehrperson sitzt zu Hause und bereitet den Englisch-Unterricht für die nächsten Einheiten vor. Das aktuelle Thema ist Grammatik und es werden die Zeiten Present Simple, Past Simple und Present Perfect Simple behandelt. Im Unterricht wurden bereits einige Übungen gemacht. Die Lehrperson fügt nun über die App bzw. über das das Moodle-Plugin Aufgaben hinzu, die die Schüler und Schülerinnen erledigen müssen (Hausaufgaben). Zusätzlich gibt es noch Bonusaufgaben, die die Schüler und Schülerinnen selbst in der App hinzugefügt haben. Die Lehrperson bestätigt nun alle getätigten Kreuze der Schüler und Schülerinnen und die Punktzahlen werden auf das Clan-Konto gutgeschrieben.
-Die Lehrperson plant außerdem als Abschluss ein Quiz über die Zeiten. Dafür wird in Moodle ein Quiz erstellt, das im Unterricht für die App freigeschaltet wird. Mit Hilfe der App können die Schüler und Schülerinnen nun das Quiz abrufen und daran teilnehmen.
-
-==== Student in öffentlichen Verkehrsmitteln
-Die GamifyMyLearning App öffnen, einloggen und checken, ob alle Aufgaben erledigt sind. Zwei Aufgaben abhacken, Punktestand der Clans checken. Anschließend Übungen absolvieren.
-
 === Fragebogen
 Wir haben uns für die System-Usability-Scale (SUS) entschieden (siehe [https://blog.seibert-media.net/blog/2011/04/11/usablility-analysen-system-usability-scale-sus/](https://blog.seibert-media.net/blog/2011/04/11/usablility-analysen-system-usability-scale-sus/)). Die SUS ist ein etablierter, schneller Fragebogen um einen Gesamtwert für die Usability von 0 bis 100 zu erhalten. Die Skala spiegelt ein Messinstrument für die Usability, u.a. hinsichtlich der Einfachheit, Erlernbarkeit, Komplexität als auch der weiteren Nutzungsabsicht wider.
 Der SUS-Fragebogen enthält fünf positiv und fünf negativ formulierte Aussagen zur Usability des zu bewertenden Systems:
