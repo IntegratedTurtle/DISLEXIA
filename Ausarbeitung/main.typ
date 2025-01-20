@@ -400,4 +400,70 @@ Folgendes funktioniert noch nicht bzw wurde noch nicht implementiert:
 - design, farblich orange weil Ben, pfad duo style aus ideen sammlung, drei routen, rot zu gruen progress bar, pfad nach aktivitat farbe
 
 == Usability Test und Präsentation
+
+=== Usability Test-Aufgaben
+
+==== Schüler zu Hause
+Der Schüler ist nach der Schule zu Hause angekommen und will seine Hausübung erledigen. Er muss seine Hausübung in Englisch und Mathematik fertig machen. Er hat sich in seinem Hausübungsheft zwar die Hausübung für Englisch, aber nicht für Mathematik aufgeschrieben. Er hofft, dass sein Lehrer die Hausübung in Gamify my Learning eingetragen hat. Er schaut nach in der App und sieht, dass es tatsächlich eingetragen ist und ist erleichtert. Er erledigt seine Hausübung und kreuzt die Hausübung, die er nun erledigt hat. Sein Clan ist am zweiten Platz. Er weiß zwar, dass manche in seiner Gruppe nicht so motiviert sind wie er, doch er hofft, dass es sich bis zum Ende des Semesters ausgeht, dass sein Clan erster wird. Doch dafür wird er wohl einige Bonusaufgaben erledigen müssen… .
+
+==== Schülerin in öffentlichen Verkehrsmitteln
+Da die Schülerin außerhalb von Wien wohnt, aber in Wien zur Schule geht, hat sie eine tägliche Fahrtzeit von 40 Minuten zur Schule und wieder nach Hause. Diese Zeit jedoch kann sie produktiv für etwaige Schulaufgaben nutzen. Hierzu verwendet sie gern die Gamify my Learning App um zu überprüfen welche Aufgaben sie noch zu erledigen hat. Nach erfolgreichem Abschließen einer Aufgabe ist sie einerseits erleichtert und andererseits, freut sie sich Punkte für ihren Clan zu sammeln. Und die anderen Gruppenmitglieder können sehen wie viele Punkte sie individuell bereits gesammelt hat.
+
+==== Lehrperson zu Hause
+Die Lehrperson sitzt zu Hause und bereitet den Englisch-Unterricht für die nächsten Einheiten vor. Das aktuelle Thema ist Grammatik und es werden die Zeiten Present Simple, Past Simple und Present Perfect Simple behandelt. Im Unterricht wurden bereits einige Übungen gemacht. Die Lehrperson fügt nun über die App bzw. über das das Moodle-Plugin Aufgaben hinzu, die die Schüler und Schülerinnen erledigen müssen (Hausaufgaben). Zusätzlich gibt es noch Bonusaufgaben, die die Schüler und Schülerinnen selbst in der App hinzugefügt haben. Die Lehrperson bestätigt nun alle getätigten Kreuze der Schüler und Schülerinnen und die Punktzahlen werden auf das Clan-Konto gutgeschrieben.
+Die Lehrperson plant außerdem als Abschluss ein Quiz über die Zeiten. Dafür wird in Moodle ein Quiz erstellt, das im Unterricht für die App freigeschaltet wird. Mit Hilfe der App können die Schüler und Schülerinnen nun das Quiz abrufen und daran teilnehmen.
+
+==== Student in öffentlichen Verkehrsmitteln
+Die GamifyMyLearning App öffnen, einloggen und checken, ob alle Aufgaben erledigt sind. Zwei Aufgaben abhacken, Punktestand der Clans checken. Anschließend Übungen absolvieren.
+
+=== Fragebogen
+Wir haben uns für die System-Usability-Scale (SUS) entschieden (siehe [https://blog.seibert-media.net/blog/2011/04/11/usablility-analysen-system-usability-scale-sus/](https://blog.seibert-media.net/blog/2011/04/11/usablility-analysen-system-usability-scale-sus/)). Die SUS ist ein etablierter, schneller Fragebogen um einen Gesamtwert für die Usability von 0 bis 100 zu erhalten. Die Skala spiegelt ein Messinstrument für die Usability, u.a. hinsichtlich der Einfachheit, Erlernbarkeit, Komplexität als auch der weiteren Nutzungsabsicht wider.
+Der SUS-Fragebogen enthält fünf positiv und fünf negativ formulierte Aussagen zur Usability des zu bewertenden Systems:
+
+- Ich kann mir sehr gut vorstellen, das System regelmäßig zu nutzen.
+- Ich empfinde das System als unnötig komplex.
+- Ich empfinde das System als einfach zu nutzen.
+- Ich denke, dass ich technischen Support brauchen würde, um das System zu nutzen.
+- Ich finde, dass die verschiedenen Funktionen des Systems gut integriert sind.
+- Ich finde, dass es im System zu viele Inkonsistenzen gibt.
+- Ich kann mir vorstellen, dass die meisten Leute das System schnell zu beherrschen lernen.
+- Ich empfinde die Bedienung als sehr umständlich.
+- Ich habe mich bei der Nutzung des Systems sehr sicher gefühlt.
+- Ich musste eine Menge Dinge lernen, bevor ich mit dem System arbeiten konnte.
+
+Diese Kategorien werden mit Werten von 0 bis 4 kodiert. Dabei hängt die Kodierung jeweils von der Formulierung ab: Bei positiv formulierten Vorgaben erhält die Antwort volle Zustimmung den Wert 4 und eine rundweg ablehnende Antwort den Wert 0. Bei negativ formulierten Vorgaben wird die Antwort volle Zustimmung mit 0 kodiert, eine vollständig ablehnende Antwort erhält den Wert 4. Bei der Auswertung des Fragebogens werden die gewonnenen Zahlen addiert und anschließend mit 2,5 multipliziert. Anders als qualitative Untersuchungen liefert eine Befragung nach dem SUS-Prinzip keine Erkenntnisse darüber, welche Usability-Probleme vorliegen. Deshalb wurde unter dem SUS-Fragebogen zusätzlich folgender Text beigefügt:
+
+“Bitte nimm dir noch einen kurzen Moment Zeit und nutze die Rückseite, um uns frei formuliertes Feedback zu geben! Etwa welche Elemente haben dir explizit besonders gut gefallen, oder was hältst du für verbesserungswürdig?”
+
+=== Durchführung der Usability-Tests
+Für die Usability-Tests wurde folgender Ablauf festgelegt:
+
+1. Begrüßung & kurze Einführung zum Projekt “GamifyMyLearning”
+2. Erklärung des weiteren Prozederes
+3. Wenn ProbandIn bereit: Vorlage des entsprechenden Usability Tests
+4. Vorlage des Feedbackbogens
+5. Bedanken für Teilnahme & Erkundigung, ob noch offene Fragen bestehen
+6. Verabschiedung
+
+Der Testleiter war bei der Bearbeitung möglichst dezent stets anwesend. Während der Bearbeitung der Prototypen und der Feedbackbögen gab der Testleiter Hilfestellungen nur auf Anfrage. Es gab keinerlei Zeitvorgaben. Beobachtungen, die dem Testleiter als wesentlich erschienen, wurden von ihm schriftlich festgehalten.
+Insgesamt wurden 8 Personen getestet.
+
+=== Ergebnisse
+Der ermittelte Mittelwert der SUS-Scores beträgt M = 81.88 (n = 8) die Standardabweichung SD = 13.91. SUS-Scores von über 80 weisen auf eine gute bis exzellente Usability hin. Der durchschnittliche Score bei den männlichen Teilnehmern (n = 4) beläuft sich auf 78.75, bei den weiblichen Teilnehmerinnen (n = 4) auf 83.33. Da die Stichprobe sehr klein ist, können die Ergebnisse nur als Tendenzen interpretiert werden.
+
+Im frei-formulierten-Feedback-Teil wurde aufgezeigt, dass es keinen “Cheat-Guard” gibt, da die SchülerInnen und Studierende die Aufgaben selbst abhacken und dafür Punkte bekommen. So kann man unendlich Punkte generieren.
+Von den Lehrenden ist lobend hervorgehoben worden, mit wenig Aufwand und unkompliziert Aufgaben für Schüler zu erstellen zu können.
+Mehrmals wurde das Design als sehr klar und intuitiv aber dafür auch als langweilig eingestuft. Das Harry Potter Motiv wurde, wenn im freien Feedback erwähnt, ausnahmslos positiv angenommen.
+Es hat sich auch gezeigt, dass der Fragebogen für SchülerInnen zu abstrakt formuliert war (z.B. “Inkonsistenz”, “gut integriert”) und auf Hilfe angewiesen waren.
+
+=== Stärken-Schwächen
+Als Stärke der App sehen wir die hohe Usability und den Spaßfaktor (in M2 den höchsten aller Prototypen). 7 von 8 Testnutzer haben im Rahmen der Usability Tests angegeben, dass sie sich eine regelmäßige Nutzung gut vorstellen können.
+Schwächen sind das Fehlen eines Cheat-Guards und ein Design, das mehrmals als langweilig beschrieben wurde.
+
+=== Abgeleitete Implementationen
+Bereits vor der Durchführung der Usability Tests wurde noch ein Zugang für Lehrende implementiert, in dem Hausaufgaben und Zusatzaufgaben erstellt werden können und automatisch in der App der SchülerInnen und Studierenden aufscheinen.
+Um das Design etwas aufzupeppen, wurde die Farbpalette der App überarbeitet und etwa der weiße App-Hintergrund eingefärbt.
+Für die Implementation eines Cheat-Guards haben wir leider keine gute, technisch schnell umsetzbare Lösung gefunden.
+
+
 <usability-test-und-präsentation>
