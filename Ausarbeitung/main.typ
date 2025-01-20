@@ -401,9 +401,13 @@ Folgendes funktioniert noch nicht bzw wurde noch nicht implementiert:
 
 == Usability Test und Präsentation
 
+=== Aufgaben
+
+Dislexia Website aufrufen, sich registrieren und einloggen, sowie eine Aufgabe öffnen und sie verlassen.
+
 === Fragebogen
-Wir haben uns für die System-Usability-Scale (SUS) entschieden (siehe [https://blog.seibert-media.net/blog/2011/04/11/usablility-analysen-system-usability-scale-sus/](https://blog.seibert-media.net/blog/2011/04/11/usablility-analysen-system-usability-scale-sus/)). Die SUS ist ein etablierter, schneller Fragebogen um einen Gesamtwert für die Usability von 0 bis 100 zu erhalten. Die Skala spiegelt ein Messinstrument für die Usability, u.a. hinsichtlich der Einfachheit, Erlernbarkeit, Komplexität als auch der weiteren Nutzungsabsicht wider.
-Der SUS-Fragebogen enthält fünf positiv und fünf negativ formulierte Aussagen zur Usability des zu bewertenden Systems:
+Wir haben uns wegen der selben Gründe wie im Beispiel für die System-Usability-Scale (SUS) entschieden (siehe [https://blog.seibert-media.net/blog/2011/04/11/usablility-analysen-system-usability-scale-sus/](https://blog.seibert-media.net/blog/2011/04/11/usablility-analysen-system-usability-scale-sus/)).
+Die folgenden SUS-Fragebogen haben wir zum Bewerten des Systems gestellt:
 
 - Ich kann mir sehr gut vorstellen, das System regelmäßig zu nutzen.
 - Ich empfinde das System als unnötig komplex.
@@ -418,8 +422,6 @@ Der SUS-Fragebogen enthält fünf positiv und fünf negativ formulierte Aussagen
 
 Diese Kategorien werden mit Werten von 0 bis 4 kodiert. Dabei hängt die Kodierung jeweils von der Formulierung ab: Bei positiv formulierten Vorgaben erhält die Antwort volle Zustimmung den Wert 4 und eine rundweg ablehnende Antwort den Wert 0. Bei negativ formulierten Vorgaben wird die Antwort volle Zustimmung mit 0 kodiert, eine vollständig ablehnende Antwort erhält den Wert 4. Bei der Auswertung des Fragebogens werden die gewonnenen Zahlen addiert und anschließend mit 2,5 multipliziert. Anders als qualitative Untersuchungen liefert eine Befragung nach dem SUS-Prinzip keine Erkenntnisse darüber, welche Usability-Probleme vorliegen. Deshalb wurde unter dem SUS-Fragebogen zusätzlich folgender Text beigefügt:
 
-“Bitte nimm dir noch einen kurzen Moment Zeit und nutze die Rückseite, um uns frei formuliertes Feedback zu geben! Etwa welche Elemente haben dir explizit besonders gut gefallen, oder was hältst du für verbesserungswürdig?”
-
 === Durchführung der Usability-Tests
 Für die Usability-Tests wurde folgender Ablauf festgelegt:
 
@@ -433,19 +435,14 @@ Für die Usability-Tests wurde folgender Ablauf festgelegt:
 Der Testleiter war bei der Bearbeitung möglichst dezent stets anwesend. Während der Bearbeitung der Prototypen und der Feedbackbögen gab der Testleiter Hilfestellungen nur auf Anfrage. Es gab keinerlei Zeitvorgaben. Beobachtungen, die dem Testleiter als wesentlich erschienen, wurden von ihm schriftlich festgehalten.
 Insgesamt wurden 8 Personen getestet.
 
-=== Ergebnisse
+=== Ergebnisse (zu machen aber nur einsetzen im Grunde)
 Der ermittelte Mittelwert der SUS-Scores beträgt M = 81.88 (n = 8) die Standardabweichung SD = 13.91. SUS-Scores von über 80 weisen auf eine gute bis exzellente Usability hin. Der durchschnittliche Score bei den männlichen Teilnehmern (n = 4) beläuft sich auf 78.75, bei den weiblichen Teilnehmerinnen (n = 4) auf 83.33. Da die Stichprobe sehr klein ist, können die Ergebnisse nur als Tendenzen interpretiert werden.
 
-Im frei-formulierten-Feedback-Teil wurde aufgezeigt, dass es keinen “Cheat-Guard” gibt, da die SchülerInnen und Studierende die Aufgaben selbst abhacken und dafür Punkte bekommen. So kann man unendlich Punkte generieren.
-Von den Lehrenden ist lobend hervorgehoben worden, mit wenig Aufwand und unkompliziert Aufgaben für Schüler zu erstellen zu können.
-Mehrmals wurde das Design als sehr klar und intuitiv aber dafür auch als langweilig eingestuft. Das Harry Potter Motiv wurde, wenn im freien Feedback erwähnt, ausnahmslos positiv angenommen.
-Es hat sich auch gezeigt, dass der Fragebogen für SchülerInnen zu abstrakt formuliert war (z.B. “Inkonsistenz”, “gut integriert”) und auf Hilfe angewiesen waren.
-
-=== Stärken-Schwächen
+=== Stärken-Schwächen (erst nach Daten möglich aber Struktur ig nicht dummm)
 Als Stärke der App sehen wir die hohe Usability und den Spaßfaktor (in M2 den höchsten aller Prototypen). 7 von 8 Testnutzer haben im Rahmen der Usability Tests angegeben, dass sie sich eine regelmäßige Nutzung gut vorstellen können.
 Schwächen sind das Fehlen eines Cheat-Guards und ein Design, das mehrmals als langweilig beschrieben wurde.
 
-=== Abgeleitete Implementationen
+=== Abgeleitete Implementationen (erst nach Daten möglich aber Struktur ig nicht dummm)
 Bereits vor der Durchführung der Usability Tests wurde noch ein Zugang für Lehrende implementiert, in dem Hausaufgaben und Zusatzaufgaben erstellt werden können und automatisch in der App der SchülerInnen und Studierenden aufscheinen.
 Um das Design etwas aufzupeppen, wurde die Farbpalette der App überarbeitet und etwa der weiße App-Hintergrund eingefärbt.
 Für die Implementation eines Cheat-Guards haben wir leider keine gute, technisch schnell umsetzbare Lösung gefunden.
