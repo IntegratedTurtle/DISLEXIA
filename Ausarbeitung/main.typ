@@ -425,7 +425,7 @@ Diese Kategorien werden mit Werten von 0 bis 4 kodiert. Dabei hängt die Kodieru
 === Durchführung der Usability-Tests
 Für die Usability-Tests wurde folgender Ablauf festgelegt:
 
-1. Begrüßung & kurze Einführung zum Projekt “GamifyMyLearning”
+1. Begrüßung & kurze Einführung zum Projekt “DISLEXIA”
 2. Erklärung des weiteren Prozederes
 3. Wenn ProbandIn bereit: Vorlage des entsprechenden Usability Tests
 4. Vorlage des Feedbackbogens
@@ -447,5 +447,33 @@ Bereits vor der Durchführung der Usability Tests wurde noch ein Zugang für Leh
 Um das Design etwas aufzupeppen, wurde die Farbpalette der App überarbeitet und etwa der weiße App-Hintergrund eingefärbt.
 Für die Implementation eines Cheat-Guards haben wir leider keine gute, technisch schnell umsetzbare Lösung gefunden.
 
+=== Finale App und Ergebnisse
+Die finale App setzt sich aus den Teilen zusammen, die bereits in einem 
+früheren Punkt erwähnt wurden und ansonsten ist nichts mehr dazu gekommen.
+Für eine erste Version fehlt in erster Linie noch Inhalt in den Lektionen
+und das Backend. 
+
+Die Usability-Test Ergebnisse sind nur teilweise deutbar und sind eigentlich
+sehr eindeutig: Den drei Testpersonen hat unsere App ausgezeichnet gefallen
+und das ist auch verständlich ;), da es einfach noch an Größe der App fehlt, 
+um große Kritikpunkte zu äußern. 
+
+Die Ergebnisse in Detail (Von 1 - 5; Die Namen sind aus Datenschutzgründen
+anonymisiert):
+
+#table(
+  columns: 4,
+  table.header([*Frage*], [Sualokin], [Olbap], [Salocin]),
+  [regelmäßige Nutzung], [4], [4.5], [1],
+  [unnötig komplex], [1], [1], [1],
+  [einfach zu nutzen], [5], [5], [5],
+  [technischer Support notwending], [1], [1], [1],
+  [Funktionen gut integriert], [5], [4], [5],
+  [zu viel Inkonsistenzen], [1], [3], [1],
+  [schnell erlernbar], [5], [5], [5],
+  [Bedienung umständlich], [1], [1], [1],
+  [sicher], [5], [5], [1],
+  [viel zu lernen], [1], [1], [1],
+)
 
 <usability-test-und-präsentation>
