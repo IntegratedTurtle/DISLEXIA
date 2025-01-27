@@ -17,6 +17,15 @@
         <h1>Sualokin</h1>
         <h1>Olbap</h1>
         <h1>Salocin</h1>
+        <button onclick="send_to_homescreen()">Back to homescreen</button>
     </div>
 </body>
+
+<script>
+    function send_to_homescreen() {
+        event.preventDefault();
+        document.location.href = "../homescreen/homescreen.html";
+    }
+</script>
+
 </html>
